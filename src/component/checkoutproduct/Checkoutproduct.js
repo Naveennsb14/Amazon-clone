@@ -11,7 +11,7 @@ const Checkoutproduct = ({id, title, price, rating, image}) => {
             type:"REMOVE_FROM_BASKET",
             id:id,
         })
-
+ 
     }
   return (
     <div className='checkoutProduct'>

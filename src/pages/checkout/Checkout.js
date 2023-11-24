@@ -7,8 +7,10 @@ import Checkoutproduct from "../../component/checkoutproduct/Checkoutproduct";
 const Checkout = () => {
   const [{ basket }] = useStateValue();
   return (
-    <div className="checkout">
+    <>
       <Header />
+    <div className="checkout">
+      <div className="checkout__left">
       <img
         className="checkout_ad"
         src="https://i.ytimg.com/vi/c0m57jAkF9U/maxresdefault.jpg"
@@ -36,7 +38,9 @@ const Checkout = () => {
           </h2>
         </div>
       )}
+      </div>
     </div>
+    </>
   );
 };
 
